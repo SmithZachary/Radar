@@ -11,6 +11,7 @@
 		B60FCA8726EFFE9D0096D6FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FCA8626EFFE9D0096D6FF /* ContentView.swift */; };
 		B60FCA8926EFFE9F0096D6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60FCA8826EFFE9F0096D6FF /* Assets.xcassets */; };
 		B60FCA8C26EFFE9F0096D6FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60FCA8B26EFFE9F0096D6FF /* Preview Assets.xcassets */; };
+		B60FCA9426F001310096D6FF /* Radar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60FCA9326F001310096D6FF /* Radar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B60FCA8826EFFE9F0096D6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B60FCA8B26EFFE9F0096D6FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B60FCA8D26EFFE9F0096D6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60FCA9326F001310096D6FF /* Radar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				B60FCA8426EFFE9D0096D6FF /* RadarApp.swift */,
 				B60FCA8626EFFE9D0096D6FF /* ContentView.swift */,
+				B60FCA9326F001310096D6FF /* Radar.swift */,
 				B60FCA8826EFFE9F0096D6FF /* Assets.xcassets */,
 				B60FCA8D26EFFE9F0096D6FF /* Info.plist */,
 				B60FCA8A26EFFE9F0096D6FF /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60FCA9426F001310096D6FF /* Radar.swift in Sources */,
 				B60FCA8726EFFE9D0096D6FF /* ContentView.swift in Sources */,
 				B60FCA8526EFFE9D0096D6FF /* RadarApp.swift in Sources */,
 			);
@@ -277,6 +281,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				PRODUCT_BUNDLE_IDENTIFIER = com.spaceMuleTech.Radar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -299,6 +304,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				PRODUCT_BUNDLE_IDENTIFIER = com.spaceMuleTech.Radar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

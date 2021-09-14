@@ -11,7 +11,7 @@ import SwiftUI
 struct RadarApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           Radar()
         }
     }
 }
